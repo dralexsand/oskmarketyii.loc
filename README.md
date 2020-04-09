@@ -1,1 +1,2 @@
 # oskmarketyii.loc
+init
