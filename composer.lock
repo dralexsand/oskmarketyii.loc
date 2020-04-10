@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50114089d7de41b6fbcc4d646295169a",
+    "content-hash": "1e934170a117d6df80e082befaf50042",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -78,6 +78,21 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bestiejs/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
+            },
+            "type": "bower-asset"
+        },
+        {
+            "name": "bower-asset/sweetalert",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/t4t5/sweetalert.git",
+                "reference": "4176d1ebba85e45f8d7faf909841bed0582c25cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/t4t5/sweetalert/zipball/4176d1ebba85e45f8d7faf909841bed0582c25cd",
+                "reference": "4176d1ebba85e45f8d7faf909841bed0582c25cd"
             },
             "type": "bower-asset"
         },

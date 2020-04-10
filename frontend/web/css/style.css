@@ -1,0 +1,17 @@
+#add_user {
+    color: white;
+}
+
+#add_user:hover {
+    color: yellow;
+}
+
+.delete_user {
+    color: silver;
+}
+
+
+.delete_user:hover {
+    color: red;
+    cursor: pointer;
+}

@@ -40,7 +40,13 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            //'enableStrictParsing'=> true,
             'rules' => [
+                '/' => 'site/index',
+                'about' => 'site/about',
+                'contact' => 'site/contact',
+                'list' => 'site/list',
+                //'ajax' => 'ajax/request',
             ],
         ],
 
