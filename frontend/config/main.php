@@ -42,10 +42,12 @@ return [
             'showScriptName' => false,
             //'enableStrictParsing'=> true,
             'rules' => [
-                '/' => 'site/index',
+                '' => 'site/index',
+                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
+                /*'/' => 'site/index',
                 'about' => 'site/about',
                 'contact' => 'site/contact',
-                'list' => 'site/list',
+                'list' => 'site/list',*/
                 //'ajax' => 'ajax/request',
             ],
         ],

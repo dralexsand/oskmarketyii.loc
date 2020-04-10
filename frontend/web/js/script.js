@@ -91,5 +91,6 @@ function ajaxSuccess(data, params) {
 }
 
 function ajaxError(data) {
-    console.log('ajax error');
+    console.log('ajax error:');
+    console.log(data);
 }
