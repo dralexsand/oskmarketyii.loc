@@ -120,7 +120,7 @@ class Profiles extends ActiveRecord
     public static function getTableTr($data_item)
     {
         return '<tr id="' . $data_item['id'] . '">
-            <th scope="row">' . $data_item['id'] . '</th>
+            <td>' . $data_item['id'] . '</td>
             <td>' . $data_item['name'] . '</td>
             <td>' . $data_item['city'] . '</td>
             <td>' . $data_item['skills'] . '</td>
@@ -131,13 +131,14 @@ class Profiles extends ActiveRecord
     public static function getTable()
     {
         $profiles = self::getProfiles();
-        $table = self::getTableHeader();
+        //$table = self::getTableHeader();
+        $table = '';
         if (!empty($profiles)) {
             foreach ($profiles as $profile) {
                 $table .= self::getTableTr($profile);
             }
         }
-        $table .= self::getTableFooter();
+        //$table .= self::getTableFooter();
         return $table;
     }
 

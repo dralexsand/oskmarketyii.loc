@@ -3,7 +3,6 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
-use yii\widgets\Pjax;
 
 $this->title = 'List';
 $this->params['breadcrumbs'][] = $this->title;
@@ -18,12 +17,34 @@ $this->params['breadcrumbs'][] = $this->title;
                 class="fas fa-plus"></i></button>
     <hr>
     <table id="users_list" class="display" style="width:100%">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Имя</th>
+            <th>Город</th>
+            <th>Навыки</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody id="users_list_body">
         <?php
         if (isset($table)) {
             echo $table;
         }
         ?>
+        </tbody>
+        <tfoot>
+        <tr>
+            <th>#</th>
+            <th>Имя</th>
+            <th>Город</th>
+            <th>Навыки</th>
+            <th></th>
+        </tr>
+        </tfoot>
     </table>
+
+    <hr>
 
     <!--<code><? /*= __FILE__ */ ?></code>-->
 </div>

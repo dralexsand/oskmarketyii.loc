@@ -44,11 +44,15 @@ return [
             'rules' => [
                 '' => 'site/index',
                 '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
-                /*'/' => 'site/index',
+
+                //'ajax' => 'ajax/request',
+                //'<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
+                /*
+                '/' => 'site/index',
                 'about' => 'site/about',
                 'contact' => 'site/contact',
-                'list' => 'site/list',*/
-                //'ajax' => 'ajax/request',
+                'list' => 'site/list',
+                */
             ],
         ],
 

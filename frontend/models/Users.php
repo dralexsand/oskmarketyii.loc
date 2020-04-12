@@ -70,7 +70,7 @@ class Users extends ActiveRecord
 
     public static function getUsersList()
     {
-        $sql = "SELECT name  FROM users";
+        $sql = "SELECT name  FROM users ORDER  BY id DESC";
         $users = Yii::$app->db->createCommand($sql)->queryAll();
 
         $list = [];
